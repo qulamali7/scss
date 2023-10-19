@@ -1,0 +1,23 @@
+footer{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .footer-icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        div{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #212529;
+            padding: 14px;
+            i{
+                color: #ffff;
+                font-size: 25px;
+            }
+        }
+    }
+}
